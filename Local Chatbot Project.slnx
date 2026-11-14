@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <File Path=".env" />
+    <File Path="docker-compose.yml" />
+    <Project Path="src/LocalChatbot.Api/LocalChatbot.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Storage/" />
+  <Folder Name="/src/Storage/documents/" />
+</Solution>
