@@ -1,4 +1,5 @@
 using LocalChatbot.Api.Features.Chat;
+using LocalChatbot.Api.Features.Conversations;
 using LocalChatbot.Api.Features.OpenAI.ChatCompletions;
 using LocalChatbot.Api.Features.OpenAI.Models;
 using LocalChatbot.Api.Infrastructure.Ollama;
@@ -65,6 +66,8 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapModelEndpoints();
 app.MapChatCompletionEndpoints();
+
+app.MapConversationEndpoints();
 
 app.MapChatEndpoints();
 

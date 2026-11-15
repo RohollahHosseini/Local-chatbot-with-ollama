@@ -1,4 +1,4 @@
-﻿using LocalChatbot.Api.Conversations.Entities;
+﻿using LocalChatbot.Api.Features.Conversations.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace LocalChatbot.Api.Infrastructure.Persistence;

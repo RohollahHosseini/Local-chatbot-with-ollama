@@ -1,4 +1,4 @@
-﻿namespace LocalChatbot.Api.Conversations.Entities;
+﻿namespace LocalChatbot.Api.Features.Conversations.Models;
 
 public class Conversation
 {
